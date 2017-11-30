@@ -1,5 +1,3 @@
-<%@page import="Model.Colmena"%>
-<%@page import="java.util.ArrayList"%>
 <!doctype html>
 <html lang="en">
   <head>
@@ -9,7 +7,7 @@
     <meta name="author" content="">
     <link rel="icon" href="../../../../favicon.ico">
 
-    <title>Parcial</title>
+    <title>Narrow Jumbotron Template for Bootstrap</title>
 
     <!-- Bootstrap core CSS -->
     <link href="../../../../dist/css/bootstrap.min.css" rel="stylesheet">
@@ -35,10 +33,20 @@
             </li>
           </ul>
         </nav>
-        <h3 class="text-muted">Parcial</h3>
+        <h3 class="text-muted">Project name</h3>
       </header>
 
-      <div class="container">           
+      <main role="main">
+
+        <div class="jumbotron">
+          <h1 class="display-3">Jumbotron heading</h1>
+          <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+          <p><a class="btn btn-lg btn-success" href="#" role="button">Sign up today</a></p>
+        </div>
+
+        <div class="row marketing">
+          <div class="col-lg-6">
+           <div class="container">           
   <table class="table table-striped">
       <tr>
         <td>Ubicacion Espacial</td>
@@ -67,9 +75,24 @@
                         %>
   </table>
 </div>
+          </div>
+
+          <div class="col-lg-6">
+            <h4>Subheading</h4>
+            <p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.</p>
+
+            <h4>Subheading</h4>
+            <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum.</p>
+
+            <h4>Subheading</h4>
+            <p>Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
+          </div>
+        </div>
+
+      </main>
 
       <footer class="footer">
-        <p>Usa 2017</p>
+        <p>&copy; Company 2017</p>
       </footer>
 
     </div> <!-- /container -->
