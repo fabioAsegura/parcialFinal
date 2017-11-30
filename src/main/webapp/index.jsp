@@ -10,16 +10,11 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     </head>
     <body>
-        <form class="col-sm-2" action="Reporte" method="POST">
-  <div class="form-group">
-    <label for="usuario">numero de empleado</label>
-    <input type="text" class="form-control"  name="numEmp">
-  </div>
-  <button type="submit" class="btn-sm btn-primary">enviar</button>
-   <button onclick="window.location.href='index.jsp'" type="button" class="btn-sm btn-primary">Inicio</button>
-</form>
+       
+   
   <div class="container">           
   <table class="table table-striped">
+      <a>Colmenas</a>
       <tr>
         <td>Ubicacion Espacial</td>
         <td>Procedencia del cajon</td>
