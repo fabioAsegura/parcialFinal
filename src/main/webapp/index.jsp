@@ -1,4 +1,4 @@
-<%@page import="model.valores"%>
+<%@page import="Model.Colmena"%>
 <%@page import="java.util.ArrayList"%>
 <html>
     <head>
